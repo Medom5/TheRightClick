@@ -1,56 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
-  
-  
 }
 
-.header{
-    background-color: #1A374D;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
+.header {
+  background-color: #1a374d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.logo-text{
-    color: #F9FAF8;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.logo-img{
-    width: 120px;
-    height: 120px;
+.logo-text {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-
-
-ul{
-    list-style: none;
-    margin: 0;
-    margin-right: 30px;
-    padding: 0; 
-    display: flex;
-    gap: 30px;
-    font-size: 20px;
+.logo-img {
+  width: 120px;
+  height: 120px;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
 
-a{
-    color: #E5E7EB;
-    text-decoration: none;
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.info {
+  background-color: #1a374d;
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+.title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 18px;
+  width: 800px;
+}
+
+.shop-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.shop-desc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+ 
+}
+
+.sign-up-btn {
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 7px 30px;
+  color: #f9faf8;
+  border: none;
+  font-size: 18px;
 }
