@@ -11,11 +11,11 @@ body {
 }
 
 .header {
-  background-color: #1a374d;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 10px;
 }
 
 .logo {
@@ -50,7 +50,7 @@ a {
 }
 
 .info {
-  background-color: #1a374d;
+  background-color: #1f2937;
   display: flex;
   padding: 50px;
   justify-content: space-around;
@@ -81,14 +81,111 @@ a {
   display: flex;
   flex-direction: column;
   flex: 1;
- 
 }
 
-.sign-up-btn {
-  border-radius: 5px;
+.sign-up-btn,
+.sign-up-btn-2 {
+  border-radius: 8px;
   background-color: #3882f6;
   padding: 7px 30px;
   color: #f9faf8;
   border: none;
+  font-size: 18px;
+}
+
+.body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.desc-2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.mouse-desc {
+  color: rgb(49, 44, 44);
+  text-align: center;
+}
+.mouse img {
+  width: 220px;
+  height: 220px;
+  border-radius: 30px;
+  border: solid #3882f6 5px;
+}
+
+.products {
+  padding: 20px;
+  display: flex;
+  gap: 70px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.mouse {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  gap: 20px;
+}
+
+.sign-up-btn-2 {
+  border: solid white 3px;
+  color: white;
+  background-color: #3882f6;
+}
+
+.fancy-text {
+  background-color: #e5e7eb;
+  padding: 100px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+  width: 75%;
+  align-self: center;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.call-to-action {
+  font-size: 28px;
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #e5e7eb;
   font-size: 18px;
 }
